@@ -1,0 +1,203 @@
+*{
+
+	font: 20px/1 Lobster,Arial,sans-serif;
+	color:black;
+}
+
+.content{
+	margin: 2.5%;
+	background: white;
+	border-bottom: #DDD 1px solid;
+	box-shadow: 0 0 50px #E1440D;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 1em;
+	padding :20px;
+	width: 60%;
+	top: 30px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-left: 60px;
+}
+
+
+.sidebar{
+	margin: 2.5%;
+	background: white;
+	border-bottom: #DDD 1px solid;
+	box-shadow: 0 0 50px #E1440D;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 1em;
+	padding :10px;
+	padding-top: 0px;
+	width : 23%;
+	position:absolute;
+	right:0px;
+	top:133px;
+}
+
+.sidebar .sidebar-title{
+	line-height: 20px;
+	font-size: 20px;	
+	color: #E1440D;
+	line-height: 111px;
+	background: url(style/images/content_title_sidebar_1_760.png) right bottom no-repeat;
+	
+}
+
+.sidebar .watermark{
+	position:relative;
+	top : -48px;
+	right:10px;
+	float:right;
+	margin-bottom: -20px;
+}
+
+ img{
+	border-radius : 1em;
+}
+
+.header {
+
+	width: 94%;
+	margin: 2.5%;
+	/* background: white;
+	border-bottom: #DDD 1px solid;
+	box-shadow: 0 0 50px #3E65B0;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;*/
+	padding: 10px;
+	margin-bottom: 60px;
+}
+
+footer {
+
+	width: 94%;
+	margin: 2.5%;
+	/* background: white;
+	border-bottom: #DDD 1px solid;
+	box-shadow: 0 0 50px #3E65B0;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;*/
+	padding: 10px;
+	bottom: 0px;
+}
+
+.logo {
+	width: 200px;
+	height: 129px;
+	float: left;
+	margin-top: -40px;
+
+	vertical-align: middle;
+	box-shadow: 0 0 50px rgba(249,198,83,.9);
+	border-radius: 1em;
+	background: rgba(249,198,83,.4);
+	margin-bottom: 10px;
+	margin-left:100px;
+	margin-right:-10px;
+}
+
+.logo img{
+
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+.HotOrNot img{
+	 height:"500px";
+	 width: 100%;
+}
+
+.content-title {
+
+	font-size: 40px;
+	color: #E1440D;
+	line-height: 130px;
+	background: url(style/images/content_title_bar_1_760.png) right bottom no-repeat;
+}
+.hr-sidebar{
+	padding-bottom: 10px;
+	border-radius: 0px;
+}
+
+/*.Hot , .Not {
+	border: 5px solid;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 10px;
+	width: 250px;
+	height: 100px;
+	font-style: none;
+}
+
+.Hot {
+	border-color: #FF8305;
+	color:red;
+}*/
+.Not{
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 60px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  -webkit-box-shadow: 7px 7px 13px #FFFFFF;
+  -moz-box-shadow: 7px 7px 13px #FFFFFF;
+  box-shadow: 7px 7px 13px #FFFFFF;
+  text-shadow: 1px 1px 3px #aad4e5;
+  border: solid #aad4e5 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#aad4e5));
+  background: -moz-linear-gradient(top, #FFFFFF, #aad4e5);
+  cursor: hand;
+}
+.Not:hover{
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#aad4e5), to(#FFFFFF));
+  background: -moz-linear-gradient(top, #aad4e5, #FFFFFF)
+}
+
+.Hot{
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 60px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  -webkit-box-shadow: 7px 7px 13px #FFFFFF;
+  -moz-box-shadow: 7px 7px 13px #FFFFFF;
+  box-shadow: 7px 7px 13px #FFFFFF;
+  text-shadow: 1px 1px 3px #aad4e5;
+  border: solid #ffff00 2px;
+  background: linear-gradient(top, #ff0000 0%, #ffff00 50%, #ffff00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffff00), color-stop(0.5, #ffff00), color-stop(1, #ff0000));	
+  background: -moz-linear-gradient(top, #ffff00 0%, #ffff00 50%, #ff0000 100%);
+  background: -o-linear-gradient(top, #ffff00 0%, #ffff00 50%, #ff0000 100%);
+  background: -ms-linear-gradient(top, #ffff00 0%, #ffff00 50%, #ff0000 100%);
+  cursor: hand;
+}
+.Hot:hover{
+  background: linear-gradient(top, #ff0000 0%, #ffff00 50%, #ffff00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff0000), color-stop(0.5, #ffff00), color-stop(1, #ffff00));	
+  background: -moz-linear-gradient(top, #ff0000 0%, #ffff00 50%, #ffff00 100%);
+  background: -o-linear-gradient(top, #ff0000 0%, #ffff00 50%, #ffff00 100%);
+  background: -ms-linear-gradient(top, #ff0000 0%, #ffff00 50%, #ffff00 100%);
+}
+
+
+
