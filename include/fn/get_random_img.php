@@ -29,8 +29,9 @@
 							<form action="img_rating.php" method="POST" id="rateForm">
 								<input type="hidden" name="img_id" value="<?php echo $row['id'] ?>">
 								<button class="Hot" onClick="submitForm('rateForm');">HOT</button> OR 
-								<button class="Not" onClick="reload();">NOT</button>
+								
 							</form>
+							<button class="Not" onClick="reload();">NOT</button>
 						</td>
 					</tr>
 				</table></center>
